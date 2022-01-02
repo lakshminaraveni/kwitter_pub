@@ -9,7 +9,7 @@ export function Layout(props){
         <div style={{margin: "130px auto", width:1140, justifyItems:'center',alignItems:"center", justifyContent:"center"}}>
             {props.children}
         </div>
-        
+        <Footer/>
         </>
     )
 }

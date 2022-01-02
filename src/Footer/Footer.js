@@ -3,12 +3,10 @@ import { AppBar, Toolbar, Typography, Grid, Button, Container, BottomNavigation 
 
 export default function Footer() {
     return (
-       <div color="primary">
-            <Toolbar>
-              <Typography >
-                © 2019 Kwitter
-              </Typography>
-            </Toolbar>
+       <div color="primary" style={{textAlign:"center", borderTop:"1px solid #ccc"}}>
+            <p>
+                Copyright © 2022 Kwitter
+             </p>
         </div>
     )
 }
